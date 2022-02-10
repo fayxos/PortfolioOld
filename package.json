@@ -1,11 +1,11 @@
 {
-  "name": "v4",
+  "name": "portfolio",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Felix Haag <felixhaag@hotmail.de>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/fayxos/Portfolio"
   },
   "keywords": [
     "gatsby"
