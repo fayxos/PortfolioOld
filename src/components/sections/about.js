@@ -136,10 +136,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Felix and I am a 17 years old student from Germany. My
+              interest in programming started 3 years ago when I began to build robots and
+              drones with arduino. Since than I developed lots of software with Python, C#
+              and Swift.
             </p>
 
             <p>
