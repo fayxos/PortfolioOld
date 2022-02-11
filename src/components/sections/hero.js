@@ -59,28 +59,26 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Felix Haag.</h2>;
+  const three = <h3 className="big-heading">I am a software developer.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I’m an aspiring software developer focused on {' '}. <a target="_blank" rel="noreferrer">
+          iOS development
+        </a> Currently, I’m going to school and I’m programming 
+        at home in my freetime, but I plan to study computer science 
+        afterwards and than get my first job as a software developer.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://apps.apple.com/de/app/conwrite/id1585355403"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Check out my first app!
     </a>
   );
 
