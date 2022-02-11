@@ -137,16 +137,20 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Felix and I am a 17 years old student from Germany. My
-              interest in programming started 3 years ago when I began to build robots and
-              drones with arduino. Since than I developed lots of software with Python, C#
-              and Swift.
+              interest in programming started 3 years ago when I started to build websites
+              with HTML and CSS. Since than I tried out lots of different programming languages 
+              and technologies. I plan to study computer science after school and work as a 
+              software developer afterwards.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
+              I learned programming with udemy courses and youtube tutorials and built lots
+              of small projects to improve my skills. Over time I worked with {' '}
+              <a>HTML and CSS</a>,{' '}
+              <a>C# and .NET Core</a>
+              <a>Arduino</a>,{' '}
+              <a>Python</a>,{' '}
+              <a>Flutter</a>, and{' '}
               <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of

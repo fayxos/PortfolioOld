@@ -64,9 +64,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m an aspiring software developer focused on {' '}. <a target="_blank" rel="noreferrer">
-          iOS development
-        </a> Currently, I’m going to school and I’m programming 
+        I’m an aspiring software developer focused on <a target="_blank" rel="noreferrer">iOS development</a>. 
+        Currently, I’m going to school and I’m programming 
         at home in my freetime, but I plan to study computer science 
         afterwards and than get my first job as a software developer.
       </p>
