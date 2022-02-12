@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Swift', 'UIKit', 'SwiftUI', 'C# and .NET', 'Python', 'Java'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -147,26 +147,24 @@ const About = () => {
               I learned programming with udemy courses and youtube tutorials and built lots
               of small projects to improve my skills. Over time I worked with {' '}
               <a>HTML and CSS</a>,{' '}
-              <a>C# and .NET Core</a>
-              <a>Arduino</a>,{' '}
+              <a>C# and .NET Core</a>,{' '}
               <a>Python</a>,{' '}
+              <a>Java</a>,{' '}
               <a>Flutter</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a>Swift and UIKit</a>. My
+              main focus these days is building native iOS applications
+              with <a>SwiftUI</a>.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              I recently published my first application named{' '}
+              <a href="https://apps.apple.com/de/app/conwrite/id1585355403">
+                Conwrite
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              to the Apple App Store.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few programming languages and Frameworks I’am familiar with:</p>
           </div>
 
           <ul className="skills-list">
