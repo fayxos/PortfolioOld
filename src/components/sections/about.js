@@ -164,7 +164,7 @@ const About = () => {
               to the Apple App Store.
             </p>
 
-            <p>Here are a few programming languages and Frameworks I’am familiar with:</p>
+            <p>Here are a few programming languages and frameworks I’am familiar with:</p>
           </div>
 
           <ul className="skills-list">
