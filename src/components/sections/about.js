@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Swift', 'UIKit', 'SwiftUI', 'C# and .NET', 'Python', 'Java'];
+  const skills = ['Swift', 'Python', 'SwiftUI', 'C# and .NET', 'UIKit', 'Java'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -147,7 +147,7 @@ const About = () => {
               I learned programming with udemy courses and youtube tutorials and built lots
               of small projects to improve my skills. Over time I worked with {' '}
               <a>HTML and CSS</a>,{' '}
-              <a>C# and .NET Core</a>,{' '}
+              <a>C# and .NET</a>,{' '}
               <a>Python</a>,{' '}
               <a>Java</a>,{' '}
               <a>Flutter</a>, and{' '}
