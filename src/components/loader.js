@@ -45,15 +45,21 @@ const Loader = ({ finishLoading }) => {
     });
 
     loader
-      .add({
-        targets: '#logo path',
-        delay: 300,
-        duration: 1500,
+      .add({ // b
+        targets: '#logo #B',
+        duration: 700,
         easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
+        opacity: 1,
       })
-      
-      .add({
+      .add({ // logo weg
+        targets: '#logo',
+        delay: 500,
+        duration: 300,
+        easing: 'easeInOutQuart',
+        opacity: 0,
+        scale: 0.1,
+      })
+      .add({ // background weg
         targets: '.loader',
         duration: 200,
         easing: 'easeInOutQuart',
@@ -84,3 +90,13 @@ Loader.propTypes = {
 };
 
 export default Loader;
+
+/*
+.add({ // umriss
+        targets: '#logo path',
+        delay: 300,
+        duration: 1500,
+        easing: 'easeInOutQuart',
+        strokeDashoffset: [anime.setDashoffset, 0],
+      })
+*/
