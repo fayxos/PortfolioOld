@@ -1,8 +1,8 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
+title: 'Swift - UIKit'
+company: 'Swift'
+location: 'Home'
 range: 'July - December 2017'
 url: 'https://www.apple.com/music/'
 ---
