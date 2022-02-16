@@ -5,7 +5,7 @@ const IconLoader = () => (
     <title>Loader Logo</title>
     <g>
       <path
-          id="1"
+          id="F"
           stroke="currentColor"
           strokeWidth="5"
           strokeLinecap="round"
@@ -16,7 +16,7 @@ const IconLoader = () => (
                     L 50.5, 82"
         />
       <path
-          id="2"
+          id="H"
           stroke="currentColor"
           strokeWidth="5"
           strokeLinecap="round"
@@ -25,7 +25,7 @@ const IconLoader = () => (
                     L 80.5, 82"
         />
       <path
-          id="3"
+          id="I"
           stroke="currentColor"
           strokeWidth="5"
           strokeLinecap="round"
