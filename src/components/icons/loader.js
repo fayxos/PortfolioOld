@@ -9,12 +9,12 @@ const IconLoader = () => (
           strokeWidth="8"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M 40, 45     
-                    L 11, 45
+          d="M 40, 44     
+                    L 11, 44
                     L 11, 4
-                    L 48, 4
-                    L 48, 45
-                    L 84, 45
+                    L 50, 4
+                    L 50, 44
+                    L 84, 44
                     L 84, 4"
         />
       <path
@@ -22,8 +22,8 @@ const IconLoader = () => (
           strokeWidth="8"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M 40, 55     
-                    L 11, 55
+          d="M 40, 56     
+                    L 11, 56
                     L 11, 96"
         />
       <path
@@ -32,8 +32,8 @@ const IconLoader = () => (
           strokeLinecap="round"
           strokeLinejoin="round"
           d="M 48, 96     
-                    L 48, 55
-                    L 84, 55
+                    L 50, 56
+                    L 84, 56
                     L 84, 96"
         />
       
