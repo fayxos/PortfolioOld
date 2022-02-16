@@ -45,9 +45,8 @@ const Loader = ({ finishLoading }) => {
     });
 
     loader
-      
-      .add({ // 3
-        targets: '#logo path #I',
+      .add({ // path
+        targets: '#logo path',
         delay: 300,
         duration: 1500,
         easing: 'easeInOutQuart',
