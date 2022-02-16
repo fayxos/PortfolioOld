@@ -45,9 +45,22 @@ const Loader = ({ finishLoading }) => {
     });
 
     loader
-      
+      .add({ // 3
+        targets: '#logo rect',
+        delay: 300,
+        duration: 1500,
+        easing: 'easeInOutQuart',
+        strokeDashoffset: [anime.setDashoffset, 0],
+      })
       .add({ // 3
         targets: '#logo path',
+        delay: 300,
+        duration: 1500,
+        easing: 'easeInOutQuart',
+        strokeDashoffset: [anime.setDashoffset, 0],
+      })
+      .add({ // 3
+        targets: '#logo ellipse',
         delay: 300,
         duration: 1500,
         easing: 'easeInOutQuart',
