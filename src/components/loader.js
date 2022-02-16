@@ -45,8 +45,20 @@ const Loader = ({ finishLoading }) => {
     });
 
     loader
-      .add({ // b
-        targets: '#logo #B',
+      .add({ // 1
+        targets: '#logo #1',
+        duration: 700,
+        easing: 'easeInOutQuart',
+        opacity: 1,
+      })
+      .add({ // 2
+        targets: '#logo #2',
+        duration: 700,
+        easing: 'easeInOutQuart',
+        opacity: 1,
+      })
+      .add({ // 2
+        targets: '#logo #3',
         duration: 700,
         easing: 'easeInOutQuart',
         opacity: 1,
