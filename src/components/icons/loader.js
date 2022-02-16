@@ -5,16 +5,33 @@ const IconLoader = () => (
     <title>Loader Logo</title>
     <g>
       <path
+          id="F"
           stroke="currentColor"
           strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M 50, 5     
-                    L 11, 27
-                    L 11, 72
-                    L 50, 95
-                    L 89, 73
-                    L 89, 28 z"
+          d="M 20.5, 82     
+                    L 20.5, 18
+                    L 50.5, 18
+                    L 50.5, 82"
+        />
+      <path
+          id="H"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M 80.5, 18     
+                    L 80.5, 82"
+        />
+      <path
+          id="I"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M 20.5, 49.5     
+                    L 80.5, 49.5"
         />
       
     </g>
@@ -44,43 +61,6 @@ export default IconLoader;
                   L 89, 73
                   L 89, 28 z"
       />
-
-
-
-
-
-
-
-
-<path
-          id="F"
-          stroke="currentColor"
-          strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 20.5, 82     
-                    L 20.5, 18
-                    L 50.5, 18
-                    L 50.5, 82"
-        />
-      <path
-          id="H"
-          stroke="currentColor"
-          strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 80.5, 18     
-                    L 80.5, 82"
-        />
-      <path
-          id="I"
-          stroke="currentColor"
-          strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 20.5, 49.5     
-                    L 80.5, 49.5"
-        />
 */
 
 // M startx, starty
