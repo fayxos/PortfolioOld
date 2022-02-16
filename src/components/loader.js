@@ -45,22 +45,9 @@ const Loader = ({ finishLoading }) => {
     });
 
     loader
-      .add({ // F
-        targets: '#logo path #F',
-        delay: 300,
-        duration: 1500,
-        easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
-      })
-      .add({ // 2
-        targets: '#logo path #H',
-        delay: 300,
-        duration: 1500,
-        easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
-      })
+      
       .add({ // 3
-        targets: '#logo path #I',
+        targets: '#logo path',
         delay: 300,
         duration: 1500,
         easing: 'easeInOutQuart',
@@ -107,6 +94,20 @@ Loader.propTypes = {
 export default Loader;
 
 /*
+.add({ // F
+        targets: '#logo path #F',
+        delay: 300,
+        duration: 1500,
+        easing: 'easeInOutQuart',
+        strokeDashoffset: [anime.setDashoffset, 0],
+      })
+      .add({ // 2
+        targets: '#logo path #H',
+        delay: 300,
+        duration: 1500,
+        easing: 'easeInOutQuart',
+        strokeDashoffset: [anime.setDashoffset, 0],
+      })
 .add({ // umriss
         targets: '#logo path',
         delay: 300,
