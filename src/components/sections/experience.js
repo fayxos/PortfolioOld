@@ -167,8 +167,8 @@ const StyledTabPanel = styled.div`
 const Experience = () => {
   const data = useStaticQuery(graphql`
     query {
-      experience: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/experience/" } }
+      Experience: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/Experience/" } }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {

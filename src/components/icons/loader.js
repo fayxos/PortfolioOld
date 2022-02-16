@@ -12,8 +12,8 @@ const IconLoader = () => (
           d="M 40, 44     
                     L 11, 44
                     L 11, 4
-                    L 50, 4
-                    L 50, 44
+                    L 52, 4
+                    L 52, 44
                     L 84, 44
                     L 84, 4"
         />
@@ -32,7 +32,7 @@ const IconLoader = () => (
           strokeLinecap="round"
           strokeLinejoin="round"
           d="M 48, 96     
-                    L 50, 56
+                    L 52, 56
                     L 84, 56
                     L 84, 96"
         />
