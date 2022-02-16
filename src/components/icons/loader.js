@@ -3,13 +3,21 @@ import React from 'react';
 const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <title>Loader Logo</title>
-    <rect x="17.5313" y="83.97" width="50.6656" height="7.33001" fill="#64FFDA"/>
-    <rect width="55.6423" height="8.74145" transform="matrix(0.594989 -0.803734 0.80398 0.594657 24.7808 60.4854)" fill="#64FFDA"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M79.2384 54.8316C78.7399 54.931 78.2245 54.9831 77.6968 54.9831C74.891 54.9831 72.4298 53.5087 71.0464 51.2926L54.5138 84.4377L62.4885 88.412L79.2384 54.8316Z" fill="#64FFDA"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M76.3177 39.4444L61.9706 28.8328L56.6078 36.0771L69.9556 45.9497C70.4652 42.6477 73.0388 40.0266 76.3177 39.4444Z" fill="#64FFDA"/>
-    <rect width="5.90446" height="8.74145" transform="matrix(0.594989 -0.803734 0.80398 0.594657 59.1695 13.7456)" fill="#64FFDA"/>
-    <ellipse cx="77.6968" cy="47.1533" rx="5.83322" ry="5.83069" fill="#64FFDA"/>
-    <path d="M20.5245 73.2527L23.577 62.8559L29.6815 67.454L20.5245 73.2527Z" fill="#64FFDA"/>
+    <g>
+      <path
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M 50, 5     
+                    L 11, 27
+                    L 11, 72
+                    L 50, 95
+                    L 89, 73
+                    L 89, 28 z"
+        />
+      
+    </g>
   </svg>
 );
 
