@@ -47,21 +47,24 @@ const Loader = ({ finishLoading }) => {
     loader
       .add({ // 1
         targets: '#logo #1',
-        duration: 700,
+        delay: 300,
+        duration: 1500,
         easing: 'easeInOutQuart',
-        opacity: 1,
+        strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({ // 2
         targets: '#logo #2',
-        duration: 700,
+        delay: 300,
+        duration: 1500,
         easing: 'easeInOutQuart',
-        opacity: 1,
+        strokeDashoffset: [anime.setDashoffset, 0],
       })
-      .add({ // 2
+      .add({ // 3
         targets: '#logo #3',
-        duration: 700,
+        delay: 300,
+        duration: 1500,
         easing: 'easeInOutQuart',
-        opacity: 1,
+        strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({ // logo weg
         targets: '#logo',
