@@ -6,78 +6,37 @@ const IconLoader = () => (
     <g>
       <path
           stroke="currentColor"
-          strokeWidth="4"
+          strokeWidth="8"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M 40, 48     
-                    L 11, 48"
-        />
-      <path
-          stroke="currentColor"
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 40, 57     
-                    L 11, 57"
-        />
-      <path
-          stroke="currentColor"
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 49, 48     
-                    L 80, 48"
-        />
-      <path
-          stroke="currentColor"
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 49, 57     
-                    L 80, 57"
+          d="M 40, 45     
+                    L 11, 45
+                    L 11, 4
+                    L 48, 4
+                    L 48, 45
+                    L 84, 45
+                    L 84, 4"
         />
       <path
           stroke="currentColor"
           strokeWidth="8"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M 8, 50     
-                    L 8, 5
-                    L 48, 5
-                    L 48 50"
+          d="M 40, 55     
+                    L 11, 55
+                    L 11, 96"
         />
       <path
           stroke="currentColor"
           strokeWidth="8"
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M 84, 50     
-                    L 84, 5"
+          d="M 48, 96     
+                    L 48, 55
+                    L 84, 55
+                    L 84, 96"
         />
-        <path
-          stroke="currentColor"
-          strokeWidth="8"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 8, 55     
-                    L 8, 95"
-        />
-      <path
-          stroke="currentColor"
-          strokeWidth="8"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 84, 55     
-                    L 84, 95"
-        />
-      <path
-          stroke="currentColor"
-          strokeWidth="8"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M 52, 55     
-                    L 52, 95"
-        />
+      
     </g>
   </svg>
 );
