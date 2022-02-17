@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Conwrite'
-cover: './halcyon.png'
+cover: './conwrite.png'
 github: 'https://github.com/fayxos/Conwrite'
 external: 'https://apps.apple.com/de/app/conwrite/id1585355403'
 tech:
