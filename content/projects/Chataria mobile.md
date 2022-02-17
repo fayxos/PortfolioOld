@@ -1,6 +1,6 @@
 ---
 date: '2022-01-10'
-title: 'Chataria'
+title: 'Chataria - Mobile'
 tech:
   - Swift
   - SwiftUI
