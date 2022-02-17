@@ -173,12 +173,12 @@ const ArchivePage = ({ location, data }) => {
                   const {
                     date,
                     github,
-                    external,
+                    //external,
                     ios,
-                    android,
+                    //android,
                     title,
                     tech,
-                    company,
+                    //company,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>

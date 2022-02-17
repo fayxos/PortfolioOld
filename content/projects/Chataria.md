@@ -1,8 +1,6 @@
 ---
 date: '2022-01-10'
 title: 'Chataria - iOS Chat App'
-github: ''
-external: ''
 tech:
   - Swift
   - SwiftUI

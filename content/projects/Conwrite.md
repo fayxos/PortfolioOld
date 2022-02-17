@@ -2,7 +2,7 @@
 date: '2021-09-11'
 title: 'Conwrite - Text to handwriting'
 github: 'https://github.com/fayxos/Conwrite'
-external: 'https://apps.apple.com/de/app/conwrite/id1585355403'
+ios: 'https://apps.apple.com/de/app/conwrite/id1585355403'
 tech:
   - Swift
   - UIKit
