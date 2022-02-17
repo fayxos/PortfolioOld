@@ -186,10 +186,6 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="title">{title}</td>
 
-                      <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
-                      </td>
-
                       <td className="tech hide-on-mobile">
                         {tech.length > 0 &&
                           tech.map((item, i) => (
@@ -203,11 +199,7 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="links">
                         <div>
-                          {external && (
-                            <a href={external} aria-label="External Link">
-                              <Icon name="External" />
-                            </a>
-                          )}
+                          
                           {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
@@ -218,11 +210,7 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="AppStore" />
                             </a>
                           )}
-                          {android && (
-                            <a href={android} aria-label="Google Play Store Link">
-                              <Icon name="PlayStore" />
-                            </a>
-                          )}
+                          
                         </div>
                       </td>
                     </tr>
@@ -266,3 +254,20 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+
+/*
+<td className="company hide-on-mobile">
+  {company ? <span>{company}</span> : <span>—</span>}
+</td>
+{external && (
+  <a href={external} aria-label="External Link">
+    <Icon name="External" />
+  </a>
+)}
+{android && (
+  <a href={android} aria-label="Google Play Store Link">
+    <Icon name="PlayStore" />
+  </a>
+)}
+*/
