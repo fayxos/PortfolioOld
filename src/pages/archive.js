@@ -243,6 +243,28 @@ export const pageQuery = graphql`
             title
             tech
             github
+            ios
+          }
+          html
+        }
+      }
+    }
+  }
+`;
+
+/*
+{
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/projects/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            date
+            title
+            tech
+            github
             external
             ios
             android
@@ -253,7 +275,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+*/
 
 
 /*
