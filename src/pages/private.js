@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Profile from "../components/private/profile"
 import Upload from "../components/private/upload"
 import Login from "../components/private/login"
-import PrivateRoute from "../components/privateRoute"
+import PrivateRoute from "../components/private/privateRoute"
 
 const Private = () => (
   <Layout>
