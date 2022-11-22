@@ -66,6 +66,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   });
 };
 
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+
+  // page.matchPath is a special key that's used for matching pages
+  // only on the client.
+  if (page.path.match(/^\/private/)) {
+    page.matchPath = "/private/*"
+
+    // Update the page.
+    createPage(page)
+  }
+}
+
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
