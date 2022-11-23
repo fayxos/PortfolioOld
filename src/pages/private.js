@@ -1,10 +1,10 @@
 import React from "react"
 import { Router } from "@reach/router"
 import Layout from "../components/layout"
-import Profile from "../components/private/profile"
-import Upload from "../components/private/upload"
-import Login from "../components/private/login"
-import PrivateRoute from "../components/private/privateRoute"
+import Profile from "../components/profile"
+import Upload from "../components/upload"
+import Login from "../components/login"
+import PrivateRoute from "../components/privateRoute"
 
 const Private = () => (
   <Layout>
