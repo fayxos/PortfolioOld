@@ -10,11 +10,12 @@ const Private = () => (
   <Layout>
     <Router>
       
-      <Login path="/private/login" />
+      
     </Router>
   </Layout>
 )
 
+//<Login path="/private/login" />
 //<PrivateRoute path="/private/profile" component={Profile} />
 //<PrivateRoute path="/private/upload" component={Upload} />
 
