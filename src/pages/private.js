@@ -7,17 +7,18 @@ import Login from "../components/private/login"
 import PrivateRoute from "../components/private/privateRoute"
 
 const Private = () => (
-  <Layout>
-    <Router>
-      
-      
-    </Router>
-  </Layout>
+  
 )
 
-//<Login path="/private/login" />
-//<PrivateRoute path="/private/profile" component={Profile} />
-//<PrivateRoute path="/private/upload" component={Upload} />
+/*
+<Layout>
+    <Router>
+      <PrivateRoute path="/private/profile" component={Profile} />
+      <PrivateRoute path="/private/upload" component={Upload} />
+      <Login path="/private/login" />
+    </Router>
+  </Layout>
+  */
 
 export default Private
 
