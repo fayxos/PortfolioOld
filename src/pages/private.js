@@ -7,7 +7,7 @@ import Login from "../components/private/login"
 import PrivateRoute from "../components/private/privateRoute"
 
 const Private = () => (
-  
+  <Layout></Layout>
 )
 
 /*
